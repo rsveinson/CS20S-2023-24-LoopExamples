@@ -69,11 +69,11 @@ public class CS20SSimpleWhleLoopExample {
         // set other variables and values as needed
 
         // prime the loop a.k.a initialize the control variable
-        //n = scanner.nextInt();
-        n = random.nextInt(50);     // generate a random number between x and y
+        n = scanner.nextInt();
+        //n = random.nextInt(50);     // generate a random number between x and y
         //System.out.println(n);
 
-        while(n != 1){         // n == 0
+        while(n != 0){         // n == 0
 
             System.out.println("The number is " + n);
             
@@ -85,8 +85,8 @@ public class CS20SSimpleWhleLoopExample {
 
             // update the control variable
             System.out.println(prompt);
-            //n = scanner.nextInt();
-            n = random.nextInt(50) + 1;     // generate a random number between x and y           
+            n = scanner.nextInt();
+            //n = random.nextInt(50);     // generate a random number between x and y           
         }// end while not 0
 
         // post-loop processing
