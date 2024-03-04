@@ -75,8 +75,13 @@ public class CS20SQuitComtinueExample {
         strin = scanner.next();
         System.out.println(strin);
 
+        /* the q/c loop is case sensitive as it
+         * is now, meaning that if N is enterd 
+         * the loop will repeate. See if you can
+         * figure out how to make it not case sensitive.
+         */
         //extract the char from the input string
-        qc = strin.charAt(0);       // primt the q/c loop
+        qc = strin.charAt(0);       // prime the q/c loop
 
         while(qc != 'n'){
             // ** begin process to be repeated
