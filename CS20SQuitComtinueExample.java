@@ -78,7 +78,7 @@ public class CS20SQuitComtinueExample {
         /* the q/c loop is case sensitive as it
          * is now, meaning that if N is enterd 
          * the loop will repeate. See if you can
-         * figure out how to make it not case sensitive.
+         * figure out how to make it not case sensitive. 
          */
         //extract the char from the input string
         qc = strin.charAt(0);       // prime the q/c loop
